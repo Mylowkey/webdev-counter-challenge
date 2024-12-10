@@ -1,5 +1,5 @@
 1. Why do you use "using strict" at the top of your JS files?
-2. What does line 3 mean?
-3. What is happening on lines 5-8 and why?
+2. What does line 3 mean? Variable is zero
+3. What is happening on lines 5-8 and why? JS is telling those html files "get me the elements with the classes or IDs within the ()"
 4. If you implemented the functionality of the buttons,
    why do you think I wrote the JS code the way I did?

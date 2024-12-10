@@ -8,22 +8,35 @@ const resetBtn = document.querySelector(".reset-btn");
 const decrementBtn = document.querySelector(".decrement-btn");
 
 
-function incrementCount() {
-    // Write the relevant code in this block
 
+function incrementCount() {
+        // console.log("clicked") check the button works
+
+// let count = document.getElementsByClassName("count") Do I need this?
+
+count = count + 1
+count.innerText = count
+// console.log(count)
 }
+// incrementCount()
 
 
 function decrementCount() {
     // Write the relevant code in this block
+    let count = count - 1
+    console.log(count)
+    }
+    count()
 
-}
 
 
 function resetCount() {
     // Write the relevant code in this block
-    
-}
+    let count = count * 0
+    console.log(count)
+    }
+    count()
+
 
 function renderUpdatedCount() {
     countElement.innerText = count;
